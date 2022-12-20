@@ -6,6 +6,7 @@ int main () {
 int n;
 	LOOP: printf("\n hay nhap so nguyen duong n ");
 	scanf ("%d", &n);
+	//khinguoidungnhapn<1
 	while ( n < 1)
 		{
 		printf("\n n phai lon hon hoac bang 1\n");
@@ -14,7 +15,7 @@ int n;
 		goto LOOP;
 		} 
 	
-	
+	//khinthuoctu1den9
 		if ( n>=1 && n<=9) {
 		
 		switch (n) {
@@ -50,6 +51,7 @@ int n;
 	
 		
 	}
+	//nguoclai
 	} else {
 		printf("\n Greater than 9");
 	}
