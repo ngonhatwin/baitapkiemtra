@@ -1,12 +1,13 @@
 #include "stdio.h"
 int main () {
+	//khaibaobien
 	int a, b;
 	int n;
 	printf("\n hay nhap so a = ");
 	scanf("%d", &a);
 	printf("\n hay nhap so b = ");
 	scanf("%d", &b);
-	
+	//xetgiatrinchaytuadenb
 	for ( n = a; n<=b; n++){
 		if ( n>=1 && n<=9){
 			switch (n) {
@@ -38,8 +39,10 @@ int main () {
 				printf("nine");
 				break;
 			} 
+			//khinchiahetcho2valonhon9
 			} else if ( n % 2 == 0 && n > 9 ) {
 					printf ("\neven ");
+			//khinkhongchiahetcho2valonhon9
 					} else if ( n % 2 != 0 && n > 9 ) {
 						printf ("\nodd");
 					}
